@@ -1,0 +1,29 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "A simple example RESTful API implemented with Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donile/blog-node.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Mark Donile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donile/blog-node/issues"
+  },
+  "homepage": "https://github.com/donile/blog-node#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/node": "^14.14.14",
+    "typescript": "^4.1.3"
+  }
+}
